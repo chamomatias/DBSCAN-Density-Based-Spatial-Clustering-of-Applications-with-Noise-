@@ -4,7 +4,7 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) es un algor
 1. **No supervisado**: DBSCAN no requiere etiquetas previas y no necesita especificar el número de clústeres de antemano.
 2. **Basado en densidad**: Forma clústeres a partir de puntos densamente agrupados y puede identificar puntos aislados como ruido.
 3. **Parámetros clave**:
-4. - **Epsilon (ε)**: Distancia máxima para considerar que dos puntos están en la misma vecindad.
+   - **Epsilon (ε)**: Distancia máxima para considerar que dos puntos están en la misma vecindad.
    - **MinPts**: Número mínimo de puntos en la vecindad de un punto para considerarlo central y formar un clúster.
 
 ### Ventajas:
