@@ -7,12 +7,6 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) es un algor
 4. - **Epsilon (ε)**: Distancia máxima para considerar que dos puntos están en la misma vecindad.
    - **MinPts**: Número mínimo de puntos en la vecindad de un punto para considerarlo central y formar un clúster.
 
-### Funcionamiento:
-- **Puntos centrales**: Aquellos con al menos `MinPts` puntos en su vecindad.
-- **Expansión de clúster**: Se agregan los puntos vecinos densos a los clústeres.
-- **Puntos de borde**: Son puntos cercanos a un clúster pero no tienen suficientes vecinos para ser centrales.
-- **Puntos de ruido**: No tienen suficientes vecinos y no pertenecen a ningún clúster.
-
 ### Ventajas:
 - **No requiere número predefinido de clústeres**.
 - **Detecta clústeres de formas arbitrarias**.
